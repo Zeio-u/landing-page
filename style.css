@@ -1,0 +1,148 @@
+
+.header {
+    background-color: #1F2937;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.nav h1 {
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+.nav ul {
+    font-size: 18px;
+    list-style-type: none;
+    gap: 20px;
+    display: flex;
+    
+}
+.nav a {
+    text-decoration: none;
+    color: #e5e7eb;
+}
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.main {
+    padding-top: 80px;
+    padding-bottom: 80px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+
+
+.main-texts h1 {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
+    margin: 0;
+    padding: 0;
+}
+
+.main-texts p {
+    color: #e5e7eb;
+    font-size: 18px;
+    margin: 0;
+    padding: 0;
+}
+.main-texts {
+    max-width: 400px;
+}
+.main-image {
+    width: 400px;
+	height: 220px;
+    background: white;
+    align-self: center;
+}
+
+.main-texts button {
+    color: #f9faf8;
+    font-weight: bold;
+    background-color: #3882f6;
+    margin-top: 5px;
+    width: 100px;
+    height: 30px;
+    border-style: solid;
+    border-color: #3882f6;
+    border-radius: 8px;
+}
+.rand {
+    text-align: center;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+    padding: 0;
+    margin: 30px;
+    
+}
+.random-info {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 50px; 
+}
+
+#random-items img {
+    width: 200px;
+    height: 200px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #3882f6;
+    border-radius: 15px;
+ 
+}
+#random-items p {
+    text-align: center;
+ 
+}
+.random-info p {
+    font-size: 18px;
+
+}
+
+.quote {
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 50px;
+    margin-top: 50px;
+}
+
+#author {
+    align-self: flex-end;
+    font-size: 24px;
+    font-weight: bold;
+    padding-top: 0;
+    margin-top: 0;
+}
+
+#para {
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    color: #1F2937;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+.footer {
+    background-color: #1F2937;
+}
+
+.footer p {
+    padding-bottom: 40px;
+    padding-top: 40px;
+    color: #f9faf8;
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+}
